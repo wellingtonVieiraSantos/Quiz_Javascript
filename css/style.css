@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+.corpo {
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px grey;
+    font: 1.3rem normal Arial;
+}
+
+span {
+    font: 4rem bold Arial;
+    margin-bottom: 3.5rem;
+}
+
+input[type='button'] {
+    width: 150px;
+    height: 50px;
+    font: 1.5rem normal Arial;
+    background-color: seagreen;
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: none;
+}
+
+input[type='button']:hover {
+    background-color: rgb(23, 36, 228);
+}
+
+input[type='button']:disabled {
+    background-color: #d1d1d1;
+    color: #d1d1d1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.texto {
+    font: 1.5rem normal Arial;
+}
+
+.btn {
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    background-color: seagreen;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(23, 36, 228);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 100%;
+    margin:  auto;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    font: 1.2rem normal Arial;
+}
+
+#quest {
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: seagreen;
+    text-align: center;
+}
+
+#correta {
+    background-color: gold;
+    color: #000;
+}
+
+#errada {
+    background-color: tomato;
+}
+
+.resultado {
+    text-align: center;
+    font: 2.5rem Normal Arial;
+    margin-top: 50px;
+    color: rgb(66, 66, 66);
+}
+
+#marcador {
+    -webkit-appearance: none;
+    width: 35%;
+    height: 10px;
+    background: seagreen;
+    outline: none;
+    border: 2px solid rgb(23, 36, 228);
+    border-radius: 8px;
+    margin: 15px;
+}
+
+label{
+    font: 1.2rem normal Arial
+}
+
+#textoApresentacao, #textoAutores{
+    text-align: justify;
+    font: 2.0rem Normal Arial;
+    margin: 50px;
+    color: rgb(66, 66, 66);
+    text-shadow: 1px 1px 10px seagreen ;
+}
